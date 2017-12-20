@@ -106,7 +106,7 @@ I have downloade 10 images from the web to test the overall performance of my mo
 | No entry   	| No entry			|
 | Stop 			    | End of no passing by vehicles over 3.5 metric tons										|
 | Priority road 	| Priority road							|
-| Speed limit (20km/h) 		| Speed limit (20km/h)									|
+| Speed limit (30km/h) 		| Speed limit (30km/h)									|
 | Turn left ahead  | Beware of ice/snow    							|  
 | Slippery road  	| Slippery road			|
 | Double curve 			    | Children crossing										|
@@ -118,3 +118,5 @@ Among those predicted incorrectly by model, I observed that the image `2` and im
 One can conclude from this result that further data preprocessing techniques such as data augmentation or even spatial transformation are needed for better prediction. Furthermore, more sophisticated architecture such as VGG-net or inception model can be utilized to achieve higher prediction accuracy.
 
 * Question: Discuss how certain or uncertain the model is for its predictions?
+I have shown a bar graph in the notebook indicating the `Softmax probabilities` for each images from the new test set.
+Based on this plot the model is unsuccessful to correctly classify the image number `3`, `6`, `8`, and `10`.
