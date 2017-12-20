@@ -119,5 +119,5 @@ One can conclude from this result that further data preprocessing techniques suc
 
 * Question: Discuss how certain or uncertain the model is for its predictions?
 
-I have shown a bar graph in the notebook indicating the `Softmax probabilities` for each images from the new test set.
-Based on this plot the model is unsuccessful to correctly classify the image number `3`, `6`, `8`, and `10`.
+I have shown a bar graph in the notebook indicating the `Softmax probabilities` for each image from the new test set.
+Based on this plot, the model is unsuccessful to correctly classify the image number `3`, `6`, `8`, and `10`.
