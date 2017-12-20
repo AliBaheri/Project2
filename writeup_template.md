@@ -117,4 +117,4 @@ Among those predicted incorrectly by model, I observed that the image `2` and im
 
 One can conclude from this result that further data preprocessing techniques such as data augmentation or even spatial transformation are needed for better prediction. Furthermore, more sophisticated architecture such as VGG-net or inception model can be utilized to achieve higher prediction accuracy.
 
-
+* Question: Discuss how certain or uncertain the model is for its predictions?
