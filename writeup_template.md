@@ -113,7 +113,7 @@ I have downloade 10 images from the web to test the overall performance of my mo
 | Yield 	| Yield							|
 | Ahead only 		| General caution									|
 
-Among those predicted incorrectly by model, I observed that the image `2` and image `10` suffer from the poor quality. That's why the model unable to successfully classify them. On the other hands, there are a coplue of images (such as image `1` and image `9`) which are crystal clear. Thus, it is easy for the classifier to correctly classify them.
+Among those images predicted incorrectly by model, I observed that the image `2` and image `10` suffer from the poor quality. That's why the model unable to successfully classify them. On the other hands, there are a coplue of images (such as image `1` and image `9`) which are crystal clear. Thus, it is easy for the classifier to correctly classify them.
 
 One can conclude from this result that further data preprocessing techniques such as data augmentation or even spatial transformation are needed for better prediction. Furthermore, more sophisticated architecture such as VGG-net or inception model can be utilized to achieve higher prediction accuracy.
 
